@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Page-1" id="82a4xdOALWXeiJ_7LTte">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jU7E3YbRGc5UevplOQMW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="200" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-2" value="Server SDO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-3" value="Communication Interface" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-4" value="Client SDO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="310" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-5" value="Receive PDOs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="370" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-6" value="Transmit PDOs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="430" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-7" value="NMT, SYNC, Emergency, Timestamp messages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="490" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-9" value="Logical addressing scheme for accessing both communication and application parameters, as well as data and functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="200" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-10" value="Device functionality&lt;br&gt;- Functions&lt;br&gt;- Data&lt;br&gt;- Parameters" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="200" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-11" value="Object Dictionary" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-12" value="Application Process" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-13" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jU7E3YbRGc5UevplOQMW-14" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="80" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
