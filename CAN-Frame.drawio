@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Page-1" id="Ao7AagslHnH1udCbXXcD">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-1" value="Start of Frame&lt;br&gt;&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="25" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-2" value="Identifier Field&lt;br&gt;&lt;br&gt;11" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="105" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-3" value="RTR&lt;br&gt;&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="185" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-4" value="Control Field&lt;br&gt;&lt;br&gt;6" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-5" value="Data Field&lt;br&gt;&lt;br&gt;0 - 64" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="345" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-6" value="CRC Sequence&lt;br&gt;&lt;br&gt;15" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-7" value="CRC Delimiter&lt;br&gt;&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="505" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-8" value="ACK Delimiter&lt;br&gt;&lt;br&gt;1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="585" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-9" value="End of Frame&lt;br&gt;&lt;br&gt;7" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="665" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJZ5eVZFacfJdtFqZwS8-10" value="Intermission&lt;br&gt;&lt;br&gt;3" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="745" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
