@@ -154,6 +154,9 @@
         <mxCell id="_bIcKUBgQ75I0MvCy2z--40" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="640" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="_bIcKUBgQ75I0MvCy2z--41" value="PF_NETLINK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
