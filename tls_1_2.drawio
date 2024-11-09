@@ -76,6 +76,15 @@
         <mxCell id="EWZVdQyzxkVg31prUWX3-20" value="&lt;div&gt;Stateful encryption:&lt;/div&gt;&lt;div&gt;- Each side maintains two 64-bit counters: ctr_b_s, ctr_s_b&lt;/div&gt;&lt;div&gt;- Init to 0 when session started and increases for every record&lt;/div&gt;&lt;div&gt;- The purpose is to avoid replay attack&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="680" width="620" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="EWZVdQyzxkVg31prUWX3-21" value="No reason to send the counter since both sides already know" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EWZVdQyzxkVg31prUWX3-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EWZVdQyzxkVg31prUWX3-21" target="EWZVdQyzxkVg31prUWX3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
