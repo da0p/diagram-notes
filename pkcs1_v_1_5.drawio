@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.3">
   <diagram name="Page-1" id="PiX4UwvJvQQkjSKtT-xO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-1" value="02" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-2" value="random pad" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-3" value="FF" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-4" value="msg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-5" value="PKCS1 mode 2: Encryption" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-6" value="RSA modulus size (e.g. 2048 bits)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BXXeqXBAIP1wQfQoU3zQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.672;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="BXXeqXBAIP1wQfQoU3zQ-6" target="BXXeqXBAIP1wQfQoU3zQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
