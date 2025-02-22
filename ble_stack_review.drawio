@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
+  <diagram name="Page-1" id="QX7U6uMDCQ3IIgbz8W74">
+    <mxGraphModel dx="2214" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-tMnOqs0PRMFCchYv4je-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="190" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-1" value="Application Layer (App)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="160" y="120" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="-tMnOqs0PRMFCchYv4je-2" target="-tMnOqs0PRMFCchYv4je-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="-tMnOqs0PRMFCchYv4je-2" target="-tMnOqs0PRMFCchYv4je-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-2" value="Generic Access Profile (GAP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="-tMnOqs0PRMFCchYv4je-3" target="-tMnOqs0PRMFCchYv4je-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="220" />
+              <mxPoint x="880" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-3" value="Generic Attribute Protocol (GATT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-4" value="Security Manager (SMP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-5" value="Attribute Protocol (ATT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="400" y="250" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0JYA0LKV2KBAAx8oX1Q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="-tMnOqs0PRMFCchYv4je-6" target="Y0JYA0LKV2KBAAx8oX1Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-6" value="Logical Link Control &amp;amp; Adaptation Protocol (L2CAP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="160" y="300" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-7" target="-tMnOqs0PRMFCchYv4je-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-7" value="Link Layer (LL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="370" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-8" value="Physical Layer (PHY)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="160" y="420" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-11" value="&lt;b&gt;Application&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-13" value="&lt;b&gt;Host&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-15" value="&lt;b&gt;Controller&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-16" value="&lt;div&gt;Define BLE devices can discover each other and establish connections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="20" width="610" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-19" value="Define roles:&lt;br&gt;&lt;div&gt;&lt;b&gt;Broadcasting&lt;/b&gt; &lt;b&gt;roles&lt;/b&gt;: No connection established to transfer data explicitly&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Broadcaster&lt;/b&gt;: A device that sends public advertising data packets without the &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;need for a direct connection&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Observer: &lt;/b&gt;A device that listens to the data in the broadcasting packets without establishing a connection&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Connecting Roles: &lt;/b&gt;explicitly connect and handshake to transfer data&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Peripheral: &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- A device that advertises its presence, so central devices can establish a connection. - After connecting, peripherals no longer broadcast data to other central devices and stay connected to the device that accepted the connection request&lt;br&gt;- Low-power because they only have to advertise periodically&lt;/div&gt;&lt;div&gt;- Central devices are responsible for starting communication with peripherals&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Central:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- A device that initiates a connection with a peripheral device by first listening to the advertising packets&lt;/div&gt;&lt;div&gt;- A central device can connect to many other peripheral devices&lt;/div&gt;&lt;div&gt;- Send a connection request to a peripheral device when it wants to connect. If the peripheral device accepts the request from the central device, a connection is established&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="110" width="610" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-21" value="&lt;div&gt;- GATT focuses on how data is formatted, packaged, and exchanged between devices.&lt;/div&gt;&lt;div&gt;- The GATT layer defines hierarchical relationships between attributes, characteristics, services, and profiles.&lt;br&gt;- Attributes are grouped into characteristics and are often consolidated into a service.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="960" y="110" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="-tMnOqs0PRMFCchYv4je-3" target="-tMnOqs0PRMFCchYv4je-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="220" />
+              <mxPoint x="880" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-24" value="&lt;b&gt;Roles in GATT&lt;br&gt;Client: &lt;/b&gt;Request data from the server and are capable of reading and writing attributes&lt;br&gt;&lt;b&gt;Server: &lt;/b&gt;Stores and makes attributes available upon client requests" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="960" y="240" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="870" y="480" width="500" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-27" value="Scanning" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-28" value="Standby" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-29" value="Connection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-30" target="-tMnOqs0PRMFCchYv4je-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-30" value="Advertising" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="920" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-31" target="-tMnOqs0PRMFCchYv4je-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-31" value="Initiating" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-28" target="-tMnOqs0PRMFCchYv4je-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="570" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-29" target="-tMnOqs0PRMFCchYv4je-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="570" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-28" target="-tMnOqs0PRMFCchYv4je-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="570" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-tMnOqs0PRMFCchYv4je-30" target="-tMnOqs0PRMFCchYv4je-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="570" as="sourcePoint" />
+            <mxPoint x="880" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-38" value="Slave" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="990" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-39" value="Master" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tMnOqs0PRMFCchYv4je-40" value="GAP defines What&lt;br&gt;Link Layer executes How" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="870" y="480" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y0JYA0LKV2KBAAx8oX1Q-1" value="&lt;div&gt;- Takes multiple protocols from the upper layers and places them in standard BLE packets that are passed down to the lower layers beneath it.&lt;/div&gt;&lt;div&gt;- Handles fragmentation and recombination. It takes the larger packets from the upper layers and splits them into chunks that fit into the maximum BLE payload size supported for transmission. On the receiver side, it takes multiple packets and combines them into one packet that can be handled by the upper layers&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="690" width="280" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
