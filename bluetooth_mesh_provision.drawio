@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="26vSMkZAWUdSAl6iXQ5Y">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Device_Provisioning_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="188" height="195.83" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-5" value="1.Beaconing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.988;entryY=0.251;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="537.01" y="354" as="sourcePoint" />
+            <mxPoint x="322.9939999999999" y="353.92499999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-8" value="2.1 Provisioning invite packet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="387" as="sourcePoint" />
+            <mxPoint x="540" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-10" value="2.2 Provisioning capabilities packet" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="424" as="sourcePoint" />
+            <mxPoint x="540" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-13" value="3. Public Key Exchange" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.976;exitY=0.891;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326.74800000000005" y="460.48452999999995" as="sourcePoint" />
+            <mxPoint x="543.26" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-15" value="4. Authenticate" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-16" value="Provisioner" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-17" value="Unprovisioned Device" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="177" y="260" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329" y="500.0883799999999" as="sourcePoint" />
+            <mxPoint x="541" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mM-WnBNaV70_2MKZyFdg-19" value="5. Exchange additional provisional data and assign address for unprovisioned node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="470" width="250" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
