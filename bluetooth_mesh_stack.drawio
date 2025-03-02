@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
   <diagram name="Page-1" id="d7_1RJm_oe5P_cFj5yr7">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-1" target="fVLHdyJKt-wALbr2ZoUj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-1" value="Models" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-2" target="fVLHdyJKt-wALbr2ZoUj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-2" value="Foundation Models" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-3" target="fVLHdyJKt-wALbr2ZoUj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-3" value="Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="220" y="260" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-4" value="Upper Transport" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-5" target="fVLHdyJKt-wALbr2ZoUj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-5" value="Lower Transport" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-6" target="fVLHdyJKt-wALbr2ZoUj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-6" value="Bearer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-7" target="fVLHdyJKt-wALbr2ZoUj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-7" value="Bluetooth Low Energy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-8" value="Full BLE stack on the device. It utilizes the advertising and scanning states for sending and receiving messages between devices within the mesh network. It also supports the connected state and GATT for special devices called &lt;b&gt;proxy nodes&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="550" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-10" value="&lt;div&gt;Defines the different mesh packets (Protocol Data Units or PDUs) are handled. Two types of bearers of Bluetooth mesh bearers:&lt;/div&gt;&lt;div&gt;- Advertising bearer: This bearer utilizes the advertising and scanning states of BLE devices.&lt;/div&gt;&lt;div&gt;- GATT bearer: this bearer utilizes the connection state of BLE devices. It allows non-mesh supporting devices to interact with the mesh network via GATT operations. This i accomplished via a special node called the &lt;b&gt;proxy node&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="550" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-12" value="&lt;div&gt;- Segmentation of packets from the layer above (upper transport layer)&lt;/div&gt;&lt;div&gt;- Reassembly of packets from the layer below (bearer layer)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="400" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-14" value="&lt;div&gt;- Encryption&lt;/div&gt;&lt;div&gt;- Decryption&lt;/div&gt;&lt;div&gt;-Authentication&lt;/div&gt;&lt;div&gt;-Transport control messages (heartbeat, friendship, etc.)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="340" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="fVLHdyJKt-wALbr2ZoUj-4" target="fVLHdyJKt-wALbr2ZoUj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-16" value="Defines how the application uses the upper transport layer. It handles&lt;br&gt;&lt;div&gt;- Application data format&lt;/div&gt;&lt;div&gt;- Encryption and decryption&lt;/div&gt;&lt;div&gt;- Data verification&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="290" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-18" value="Network configuration and network management models" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fVLHdyJKt-wALbr2ZoUj-20" value="Address the implementation of models including behaviors, messages, states, and state bindings" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
