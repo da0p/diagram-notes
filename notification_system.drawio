@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.12">
   <diagram name="Page-1" id="IdAYvmuecp03Slqiloa2">
-    <mxGraphModel dx="1428" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2208" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
         <mxCell id="g83UjBnKStmYaXOZ-JM6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-1" target="g83UjBnKStmYaXOZ-JM6-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g83UjBnKStmYaXOZ-JM6-1" value="Service N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-1" value="Service N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g83UjBnKStmYaXOZ-JM6-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
@@ -122,7 +122,7 @@
         <mxCell id="g83UjBnKStmYaXOZ-JM6-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-7" target="g83UjBnKStmYaXOZ-JM6-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g83UjBnKStmYaXOZ-JM6-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-40" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="670" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="g83UjBnKStmYaXOZ-JM6-41" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -157,6 +157,54 @@
         </mxCell>
         <mxCell id="g83UjBnKStmYaXOZ-JM6-53" value="notification log" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-55" target="g83UjBnKStmYaXOZ-JM6-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-55" value="Cache and Database are separated from the notification system in order to enable scalability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="580" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.453;exitY=-0.04;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-55" target="g83UjBnKStmYaXOZ-JM6-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-22" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-58" value="Save notification to avoid losses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="740" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-58" target="g83UjBnKStmYaXOZ-JM6-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-60" target="g83UjBnKStmYaXOZ-JM6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-60" value="Rate limit to avoid overwhelm users with many notifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-62" value="A queue to decouple between notification system and workers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-63" value="Notification System" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-62" target="g83UjBnKStmYaXOZ-JM6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-65" value="Clear API for different services can use" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-67" value="Filter out invalid email addresses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g83UjBnKStmYaXOZ-JM6-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.127;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="g83UjBnKStmYaXOZ-JM6-67" target="g83UjBnKStmYaXOZ-JM6-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
