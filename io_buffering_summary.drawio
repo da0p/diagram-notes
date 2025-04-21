@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
   <diagram name="Page-1" id="abOVgPqE6UOLV8Zt-MQ-">
-    <mxGraphModel dx="1358" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="i2tidNXk0LauM3Mvuwf3-1" value="User data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i2tidNXk0LauM3Mvuwf3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="i2tidNXk0LauM3Mvuwf3-2" target="i2tidNXk0LauM3Mvuwf3-6">
+        <mxCell id="i2tidNXk0LauM3Mvuwf3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="i2tidNXk0LauM3Mvuwf3-2" target="i2tidNXk0LauM3Mvuwf3-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="520" y="190" />
@@ -79,8 +79,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2tidNXk0LauM3Mvuwf3-23" value="&lt;i&gt;open(path, flags | O_SYNC, mode)&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="490" width="160" height="60" as="geometry" />
+        <mxCell id="i2tidNXk0LauM3Mvuwf3-23" value="We can control kernel buffering here. There are different flags &lt;i&gt;O_SYNC, ODSYNC, O_RSYNC&lt;/i&gt; according to &lt;i&gt;synchronized I/O file integrity completion &lt;/i&gt;and &lt;i&gt;synchronized I/O data integrity completion&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;open(path, flags | O_SYNC, mode)&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="i2tidNXk0LauM3Mvuwf3-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
