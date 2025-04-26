@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="_AnMqKByYXko-s5QUT2I">
-    <mxGraphModel>
+    <mxGraphModel dx="1356" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XXcdgPa0SDizC-zHKEuN-1" target="XXcdgPa0SDizC-zHKEuN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-1" value="Create an &lt;i&gt;inotify instance&lt;/i&gt; with&lt;br&gt;&lt;i&gt;inotify_init()&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XXcdgPa0SDizC-zHKEuN-2" target="XXcdgPa0SDizC-zHKEuN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-2" value="Inform the kernel about which files are of interest by using &lt;i&gt;inotify_add_watch()&lt;/i&gt; to add items to the watch list" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XXcdgPa0SDizC-zHKEuN-4" target="XXcdgPa0SDizC-zHKEuN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-4" value="Using &lt;i&gt;read(...)&lt;/i&gt; operations on the &lt;i&gt;inotify&lt;/i&gt; file descriptor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XXcdgPa0SDizC-zHKEuN-5" value="When the application has finished monitoring, it closes the &lt;i&gt;inotify&lt;/i&gt; file descriptor. This automatically removes all watch items associated with the &lt;i&gt;inotify&lt;/i&gt; instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="152.5" width="200" height="145" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
