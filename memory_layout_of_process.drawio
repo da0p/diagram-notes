@@ -78,38 +78,65 @@
         <mxCell id="enD-3PhAc3JDD586RiKJ-22" value="increasing virtual addresses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-20" y="590" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="enD-3PhAc3JDD586RiKJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-23" target="enD-3PhAc3JDD586RiKJ-13">
+        <mxCell id="enD-3PhAc3JDD586RiKJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-23" target="enD-3PhAc3JDD586RiKJ-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="550" />
-              <mxPoint x="560" y="560" />
+              <mxPoint x="140" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="enD-3PhAc3JDD586RiKJ-23" value="end" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="535" width="60" height="30" as="geometry" />
+          <mxGeometry x="110" y="520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="enD-3PhAc3JDD586RiKJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-25" target="enD-3PhAc3JDD586RiKJ-14">
+        <mxCell id="enD-3PhAc3JDD586RiKJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-25" target="enD-3PhAc3JDD586RiKJ-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="595" />
-              <mxPoint x="560" y="600" />
+              <mxPoint x="140" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="enD-3PhAc3JDD586RiKJ-25" value="edata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="580" width="60" height="30" as="geometry" />
+          <mxGeometry x="110" y="560" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="enD-3PhAc3JDD586RiKJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-27" target="enD-3PhAc3JDD586RiKJ-15">
+        <mxCell id="enD-3PhAc3JDD586RiKJ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-27" target="enD-3PhAc3JDD586RiKJ-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="635" />
-              <mxPoint x="560" y="640" />
+              <mxPoint x="140" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="enD-3PhAc3JDD586RiKJ-27" value="etext" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="620" width="60" height="30" as="geometry" />
+          <mxGeometry x="110" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-29" target="enD-3PhAc3JDD586RiKJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-29" value="&lt;div&gt;- Machine-language instructions of the program run by the process&lt;/div&gt;&lt;div&gt;- Read-only so that a process doesn&#39;t accidentally modify its own program&lt;/div&gt;&lt;div&gt;- Sharable so that many processes can share the same program code&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="720" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-31" target="enD-3PhAc3JDD586RiKJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-31" value="- Contains global and static variables that are explicitly initialized. The values of these variables are read from the executable file when the program is loaded into memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="590" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-33" target="enD-3PhAc3JDD586RiKJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-33" value="- Contains global and static variables that are not explicitly initialized" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="515" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-35" value="- Stack is a dynamically growing and shrinking segment containing stack frames. One stack frame is allocated for each currently called function. A frame stores the function&#39;s local variables, arguments, and return value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.009;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-35" target="enD-3PhAc3JDD586RiKJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-37" value="- Heap is an area from which memory can be dynamically allocated at run time. The top end of the heap is called the &lt;i&gt;program break&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enD-3PhAc3JDD586RiKJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="enD-3PhAc3JDD586RiKJ-37" target="enD-3PhAc3JDD586RiKJ-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
