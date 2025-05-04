@@ -1,9 +1,105 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="26.2.14">
   <diagram name="Page-1" id="KLsl2isoUlMQOj0sN12q">
-    <mxGraphModel>
+    <mxGraphModel dx="1356" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="400" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-6" value="Stack for main thread" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-2" value="&lt;i&gt;argv, environ&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-3" value="Virtual memory address (hexadecimal)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-4" value="0xC0000000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-7" value="Stack for thread 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-8" value="Stack for thread 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-9" value="Stack for thread 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-10" value="Shared libraries, shared memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-11" value="Uninitialized data (bss)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-12" value="Initialized data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-13" value="Text (program code)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="680" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-15" value="Heap" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-14" value="0x40000000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtdpyTOwJHjtvAelxp_J-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OtdpyTOwJHjtvAelxp_J-15" target="OtdpyTOwJHjtvAelxp_J-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-18" value="0x08048000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="80" y="870" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-19" value="0x00000000" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-20" value="thread 3 executing here" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="690" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OtdpyTOwJHjtvAelxp_J-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-22" value="main thread executing here" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="750" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="765" as="sourcePoint" />
+            <mxPoint x="610" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-24" value="thread 1 executing here" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="800" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="814.5" as="sourcePoint" />
+            <mxPoint x="610" y="814.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-26" value="thread 2 executing here" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="860" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OtdpyTOwJHjtvAelxp_J-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="874.5" as="sourcePoint" />
+            <mxPoint x="610" y="874.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
