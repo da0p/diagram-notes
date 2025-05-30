@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-72" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="170" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="7s9qfy1FpKt1Sq4vfBmT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7s9qfy1FpKt1Sq4vfBmT-1" target="7s9qfy1FpKt1Sq4vfBmT-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -34,7 +37,7 @@
         <mxCell id="7s9qfy1FpKt1Sq4vfBmT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7s9qfy1FpKt1Sq4vfBmT-9" target="7s9qfy1FpKt1Sq4vfBmT-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-9" value="CLOSED" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-9" value="LISTEN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7s9qfy1FpKt1Sq4vfBmT-12" value="&lt;b&gt;passive open&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
@@ -228,6 +231,12 @@
         </mxCell>
         <mxCell id="7s9qfy1FpKt1Sq4vfBmT-70" value="&lt;div&gt;&lt;b&gt;boldface:&amp;nbsp;&lt;/b&gt;action by local application&lt;/div&gt;&lt;div&gt;&lt;i&gt;recv:&amp;nbsp;&lt;/i&gt;segment from peer that caused transition&lt;/div&gt;&lt;div&gt;&lt;i&gt;send:&amp;nbsp;&lt;/i&gt;segment sent to peer during transition&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="405" y="1090" width="275" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-71" value="&lt;i&gt;data-transfer state&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369.5" y="610" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-73" value="&lt;i&gt;passive close&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="490" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
