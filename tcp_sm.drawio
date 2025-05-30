@@ -238,6 +238,9 @@
         <mxCell id="7s9qfy1FpKt1Sq4vfBmT-73" value="&lt;i&gt;passive close&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="490" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7s9qfy1FpKt1Sq4vfBmT-74" value="2MSL timeout" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="940" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
