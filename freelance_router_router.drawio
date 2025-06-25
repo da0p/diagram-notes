@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Page-1" id="OdnWnEyrlF7hSzv6ysbz">
-    <mxGraphModel>
+    <mxGraphModel dx="1193" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r--MOlp_v87xDphRTtxG-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="530" width="760" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-1" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-2" value="ROUTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-5" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-6" value="ROUTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-7" value="Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-8" value="ROUTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="r--MOlp_v87xDphRTtxG-26" target="r--MOlp_v87xDphRTtxG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="420" />
+              <mxPoint x="170" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="r--MOlp_v87xDphRTtxG-26" target="r--MOlp_v87xDphRTtxG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="r--MOlp_v87xDphRTtxG-26" target="r--MOlp_v87xDphRTtxG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="420" />
+              <mxPoint x="690" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-13" value="Hearbeat Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-14" value="Proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-15" value="Request Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="625" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-19" value="PAIR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="625" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-20" value="PAIR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="625" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-21" value="PAIR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="625" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-22" value="PAIR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="625" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r--MOlp_v87xDphRTtxG-19" target="r--MOlp_v87xDphRTtxG-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="425" as="sourcePoint" />
+            <mxPoint x="465" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r--MOlp_v87xDphRTtxG-21" target="r--MOlp_v87xDphRTtxG-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="425" as="sourcePoint" />
+            <mxPoint x="465" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-25" value="Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r--MOlp_v87xDphRTtxG-26" value="ROUTER" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="365" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
